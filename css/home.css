@@ -1,0 +1,46 @@
+body{
+    background-image: url(/img/unnamed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hed header nav{
+    display: flex;
+    justify-content: space-between;
+    background:transparent;
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-right: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+}
+.hed header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    list-style: none;
+}
+.hed header nav ul li a{
+    text-decoration: none;
+    color: rgb(248, 244, 244);
+}
+.hed header nav ul li a:hover{
+    color: rgb(249, 249, 249);
+}
+main .tikus{
+    text-align: center;
+    margin-top: 200px;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 215px;
+    padding: 10px;
+}
