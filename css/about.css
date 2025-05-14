@@ -1,5 +1,3 @@
-/* style.css */
-
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +9,7 @@ body {
     color: #f4f4f4;
 }
 
-/* Overlay hitam transparan agar teks terbaca */
+
 body::before {
     content: '';
     position: fixed;
@@ -22,7 +20,7 @@ body::before {
     z-index: -1;
 }
 
-/* Navbar */
+
 nav {
     background: rgba(0, 0, 0, 0.8);
     padding: 15px 30px;
@@ -48,20 +46,20 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* Main content */
+
 main {
     max-width: 850px;
     margin: auto;
     padding: 50px 30px;
     background: rgba(255, 255, 255, 0.07);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     margin-top: 40px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     animation: fadeIn 1s ease-in;
 }
 
-/* Logo */
+
 .logo {
     display: block;
     max-width: 140px;
@@ -71,7 +69,6 @@ main {
     box-shadow: 0 0 15px #ffd60a88;
 }
 
-/* Headings */
 h1, h2 {
     text-align: center;
     color: #ffd60a;
@@ -88,7 +85,7 @@ h2 {
     margin-top: 40px;
 }
 
-/* Paragraph and quotes */
+
 p {
     font-size: 1.1rem;
     text-align: center;
@@ -117,7 +114,7 @@ a:hover {
     color: #ffd60a;
 }
 
-/* Kutipan penting */
+
 blockquote {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -128,7 +125,6 @@ blockquote {
     text-shadow: 1px 1px 2px #000;
 }
 
-/* Animasi masuk */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
